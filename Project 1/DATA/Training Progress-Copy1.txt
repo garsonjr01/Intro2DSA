@@ -1,0 +1,169 @@
+# Persistent Record of Training Procedure
+
+# All runs used Learning rate r = 2e-4 and a batch size of 300 examples. Nesterov method uses h = 0.35.
+# Update components are for [bias, LotArea(, LotFrontage)]
+
+# Features: LotArea; Method: Standard Gradient
+
+Iteration: 1  Loss: 1645.1119
+ Update: [0.5652     0.37822195]
+
+Iteration: 2  Loss: 1331.4766
+ Update: [0.24574896 0.1644509 ]
+
+Iteration: 3  Loss: 1272.1836
+ Update: [0.10685165 0.07150325]
+
+Iteration: 4  Loss: 1260.9741
+ Update: [0.0464591  0.03108961]
+
+Iteration: 5  Loss: 1258.855
+ Update: [0.02020042 0.01351776]
+
+Iteration: 6  Loss: 1258.4544
+ Update: [0.00878314 0.00587752]
+
+Iteration: 7  Loss: 1258.3786
+ Update: [0.00381891 0.00255555]
+
+Iteration: 8  Loss: 1258.3643
+ Update: [0.00166046 0.00111115]
+
+Iteration: 9  Loss: 1258.3616
+ Update: [0.00072197 0.00048313]
+
+Iteration: 10  Loss: 1258.3611
+ Update: [0.00031391 0.00021006]
+
+Iteration: 11  Loss: 1258.361
+ Update: [1.36488955e-04 9.13360196e-05]
+
+DONE!
+
+Final Iteration: 11  Final Loss: 1258.36  Base Loss: 3304.11
+
+
+
+
+# Features: LotArea; Method: Nesterov Update
+
+Iteration: 1  Loss: 1507.2324
+ Update: [0.65121214 0.43577976]
+
+Iteration: 2  Loss: 1264.0106
+ Update: [0.29623636 0.19823619]
+
+Iteration: 3  Loss: 1259.3721
+ Update: [0.07478336 0.05004371]
+
+Iteration: 4  Loss: 1259.2672
+ Update: [-0.00118491 -0.00079292]
+
+Iteration: 5  Loss: 1258.5256
+ Update: [-0.01207605 -0.00808108]
+
+Iteration: 6  Loss: 1258.3697
+ Update: [-0.00690808 -0.00462277]
+
+Iteration: 7  Loss: 1258.361
+ Update: [-0.00221717 -0.00148369]
+
+Iteration: 8  Loss: 1258.3613
+ Update: [-0.00025016 -0.00016741]
+
+Iteration: 9  Loss: 1258.3611
+ Update: [0.00019057 0.00012752]
+
+Iteration: 10  Loss: 1258.361
+ Update: [0.00014993 0.00010033]
+
+DONE!
+
+Final Iteration: 10  Final Loss: 1258.36  Base Loss: 3304.11
+
+
+
+
+# Features: LotArea, LotFrontage; Method: Standard Gradient
+
+Iteration: 1  Loss: 1511.2608
+ Update: [0.5652     0.6682915  0.65271232]
+
+Iteration: 2  Loss: 1242.053
+ Update: [0.24574896 0.10124117 0.08994831]
+
+Iteration: 3  Loss: 1199.8591
+ Update: [0.10685165 0.0179284  0.00974254]
+
+Iteration: 4  Loss: 1192.0179
+ Update: [ 0.0464591   0.00496925 -0.00096443]
+
+Iteration: 5  Loss: 1190.5138
+ Update: [ 0.02020042  0.00244038 -0.00186076]
+
+Iteration: 6  Loss: 1190.2161
+ Update: [ 0.00878314  0.00160083 -0.00151694]
+
+Iteration: 7  Loss: 1190.1528
+ Update: [ 0.00381891  0.00113606 -0.00112392]
+
+Iteration: 8  Loss: 1190.1371
+ Update: [ 0.00166046  0.00081997 -0.00081821]
+
+Iteration: 9  Loss: 1190.1322
+ Update: [ 0.00072197  0.00059386 -0.00059361]
+
+Iteration: 10  Loss: 1190.1303
+ Update: [ 0.00031391  0.0004304  -0.00043036]
+
+Iteration: 11  Loss: 1190.1294
+ Update: [ 0.00013649  0.00031197 -0.00031197]
+
+Iteration: 12  Loss: 1190.1289
+ Update: [ 5.93453974e-05  2.26138009e-04 -2.26137238e-04]
+
+Iteration: 13  Loss: 1190.1287
+ Update: [ 2.58033788e-05  1.63920333e-04 -1.63920221e-04]
+
+Iteration: 14  Loss: 1190.1286
+ Update: [ 1.12193091e-05  1.18820825e-04 -1.18820809e-04]
+
+Iteration: 15  Loss: 1190.1285
+ Update: [ 4.87815560e-06  8.61295934e-05 -8.61295911e-05]
+
+DONE!
+
+Final Iteration: 15  Final Loss: 1190.13  Base Loss: 5154.67
+
+
+
+
+# Features: LotArea, LotFrontage; Method: Nesterov Update
+
+Iteration: 1  Loss: 1388.724
+ Update: [0.65121214 0.70372591 0.68419423]
+
+Iteration: 2  Loss: 1196.6222
+ Update: [0.29623636 0.10971234 0.09455166]
+
+Iteration: 3  Loss: 1191.1946
+ Update: [ 0.07478336 -0.01025754 -0.02013812]
+
+Iteration: 4  Loss: 1190.7687
+ Update: [-0.00118491 -0.00523174 -0.01105428]
+
+Iteration: 5  Loss: 1190.2458
+ Update: [-0.01207605  0.00077435 -0.0024167 ]
+
+Iteration: 6  Loss: 1190.1351
+ Update: [-0.00690808  0.00107478 -0.00057069]
+
+Iteration: 7  Loss: 1190.1286
+ Update: [-0.00221717  0.00049116 -0.00030947]
+
+Iteration: 8  Loss: 1190.1287
+ Update: [-0.00025016  0.00018799 -0.00017802]
+
+DONE!
+
+Final Iteration: 8  Final Loss: 1190.13  Base Loss: 5154.67
